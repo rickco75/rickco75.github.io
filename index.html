@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Personal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="page-header center">Will Ferrell - Software Developer</h1>
+    </div>
+    <div class="container-fluid one">
+      <div class="row">
+        <div class="col-6">
+          <img src="will-selfie.jpg" class="me img-thumbnail rounded" />
+          <a href="https://github.com/">
+            <img src="linkedin.png" class="icon" />
+          </a>
+          <a href="https://instagram.com/">
+            <img src="insta.jpg" class="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/">
+            <img src="gitHub.svg" class="icon" />
+          </a>
+        </div>
+        <div class="col-6">
+          <h1>My skills as a software developer</h1>
+          <br />
+          <ul class="list-group">
+            <li class="list-group-item">
+              I understand the foundations needed for building a website with
+              HTML, CSS, and JavaScript. I understand the additional items that
+              make editing your websites much easier with BootStrap 3, FlexBox,
+              and jQuery.In addition to the above, I can send http requests
+              using AJAX to request information from API's and JSON documents
+              (objects) by parsing them into vanilla JS.
+            </li>
+          </ul>
+          <p>
+            Here I have included my gitHub repos for reference to my skills.
+          </p>
+          <ul id="repositories" class="list-group"></ul>
+          <button onclick="loadRepo()" class="btn btn-info">
+            Push for repos
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <div class="position-sticky text-center">
+        <span class="col-md-3">Need to contact me?</span>
+        📧 <a href="mailto:willferrell@gmail.com">willferrell@gmail.com</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

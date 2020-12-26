@@ -1,0 +1,41 @@
+body {
+  background-image: url("bluebackground.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one {
+  background-color: antiquewhite;
+  opacity: 0.8;
+  border: 5px solid #0099cc;
+  border-radius: 5px;
+  width: 100%;
+}
+.page-header {
+  color: antiquewhite;
+}
+.me {
+  height: 400px;
+  width: 300px;
+  padding: 5px;
+}
+a:hover {
+  text-decoration: none;
+}
+footer {
+  height: 2em;
+  background-color: #c2c1c1;
+  border: 1px #b0adad solid;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+}
+
+.icon-large {
+  height: 90px;
+  width: 90px;
+}
